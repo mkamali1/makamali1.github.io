@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Profile</title>
+    <meta name="description" content=" Mahbuba is a trainee at Sparta Global"/>
+    <meta name="viewport" content="width-device-width" inital-scale="1.0">
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            font-family: Tahoma;
+        }
+    </style>
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+    <header>
+        <img src="./images/mabs.JPG" style="width=256px;">
+        <h1>Mahbuba Kamali</h1>
+    </header>
+    <nav>
+        <nav>
+            <h2>External Links</h2>
+            <ul>
+                <li><a href="https://github.com/mkamali1">GitHub</a></li>
+                <li><a href="https://linkedin.com/in/Shah-Kamali/">LinkedIn</a></li>
+            </ul>
+            <h2>Internal Links</h2>
+            <ul>
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#work-experience">Work Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+            </ul>
+        </nav>
+    </nav>
+    <main class="flex-container">
+        <h2 id="Overview">Overview</h2>
+        <p style="colour:aliceblue;background-colour:cornglowerblue;font-family:Arial;">
+            I Joined Sparta Global 3 weeks ago.
+        </p>
+        <p>
+            I want to become a Test Engineer.
+        </p>
+        <section>
+            <h2 id="Work-experience">Work Experience </h2>
+            <table>
+                <caption>Employment History</caption>        <!-- Optional -->
+                <thead>                                       <!-- Optional -->
+                <tr>
+                    <th>Position</th>
+                    <th>Company</th>
+                    <th>From </th>
+                    <th>To </th>
+                </tr>
+                </thead>
+                <tbody>                                       <!-- Optional (0 or more)-->
+                <tr>                                      <!-- 1 or more (can replace tbody) -->
+                    <td>Trainee</td>
+                    <td>Sparta Globla</td>
+                    <td>April 2023</td>
+                    <td>Current </td>
+                </tr>
+                    <td>Teacher</td>
+                    <td>Byronwood</td>
+                    <td>September 2022</td>
+                    <td>April 2023 </td>
+                <tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h2 id="Education">Education</h2>
+            <table>
+                <caption>Education</caption>        <!-- Optional -->
+                <thead>                                       <!-- Optional -->
+                <tr>
+                    <th>Qualification</th>
+                    <th>Institution</th>
+                    <th>From</th>
+                    <th>To</th>
+                </tr>
+                </thead>
+                <tbody>                                       <!-- Optional (0 or more)-->
+                <tr>                                      <!-- 1 or more (can replace tbody) -->
+                    <td>PGCE</td>
+                    <td>Sheffield Hallam University</td>
+                    <td>September 2021</td>
+                    <td>May 2022</td>
+                </tr>
+                <td>Education with psychology and counselling</td>
+                <td>Sheffield Hallam University</td>
+                <td>September 2017</td>
+                <td>May 2021</td>
+                <tr>
+                    <td>GCSEs</td>
+                    <td>Longely</td>
+                    <td>Jun 2013</td>
+                    <td>May 2014</td>
+                </tr>
+                </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2 id="Skills">Skills</h2>
+            <ol>
+                <li> Testing</li>
+                <li> Designing</li>
+                <li> Analyzing</li>
+            </ol>
+        </section>
+        <section id="news-search">
+            <h2>News Search</h2>
+            <form method="get" action="http://www.bbc.co.uk/search">
+                <label for="search-term"> Search term </label>
+                <input type="text" id="search-term" name="q" value="Birmingham" />
+                <button type="submit">search</button>
+            </form>
+
+        </section>
+    </main>
+    <footer>
+        <small>Copyright &#169; Sparta Global 2023 <cite>by Mahbuba Kamali</cite></small>
+    </footer>
+</body>
+</html>
